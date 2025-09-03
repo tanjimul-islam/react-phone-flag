@@ -189,7 +189,7 @@ The component comes with built-in styles, but you can customize them using CSS c
 }
 ```
 
-## Browser Support
+## Browser Support.
 
 - Chrome 60+
 - Firefox 55+
