@@ -174,18 +174,65 @@ interface Country {
 
 ## Styling
 
-The component comes with built-in styles, but you can customize them using CSS classes:
+The components come with modern, clean styling that matches contemporary design patterns. The styling includes:
+
+- **Modern Design**: Clean, rounded corners with smooth animations
+- **Search Functionality**: Search input with magnifying glass icon
+- **Responsive**: Works perfectly on mobile and desktop
+- **Dark Mode Support**: Automatic dark mode detection
+- **Accessibility**: Proper focus states and keyboard navigation
+
+### Custom Styling
+
+You can customize the appearance by overriding the CSS classes:
 
 ```css
-/* Custom styling example */
-.custom-phone-input .phone-input-container {
-  border-color: #your-color;
-  border-radius: 8px;
+/* Main container */
+.phone-flag-selector {
 }
 
-.custom-phone-input .phone-input {
-  font-size: 16px;
-  color: #your-color;
+/* Input container */
+.phone-input-container {
+}
+
+/* Country selector trigger */
+.selector-trigger {
+}
+
+/* Dropdown */
+.dropdown {
+}
+
+/* Search input */
+.search-input {
+}
+
+/* Country options */
+.country-option {
+}
+```
+
+### Example: Custom Theme
+
+```css
+.phone-input-container {
+  border-radius: 8px;
+  border-color: #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.selector-trigger {
+  background-color: #f8fafc;
+}
+
+.dropdown {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.search-container {
+  background-color: #fafafa;
+  border-bottom-color: #f0f0f0;
 }
 ```
 
