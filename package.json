@@ -1,6 +1,6 @@
 {
   "name": "react-phone-flag",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "A React component for selecting country codes with flags for phone numbers",
   "main": "dist/index.js",
