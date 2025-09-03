@@ -236,7 +236,7 @@ You can customize the appearance by overriding the CSS classes:
 }
 ```
 
-## Browser Support
+## Browser Support.
 
 - Chrome 60+
 - Firefox 55+
